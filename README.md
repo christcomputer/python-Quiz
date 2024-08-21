@@ -21,6 +21,7 @@ d) `No output`
 
 #### Question 2:
 How do you correctly write a `for` loop to iterate over the items in a list named `my_list`?
+
 a) `for item in my_list:`  
 b) `for (item: my_list)`  
 c) `for item from my_list`  
@@ -41,6 +42,7 @@ d) `0 1 2 3 4`
 
 #### Question 4:
 What is the correct syntax to create an `else` block for a `for` loop in Python?
+
 a) 
 ```python
 for i in range(5):
@@ -70,6 +72,7 @@ finally:
 
 #### Question 5:
 How can you handle exceptions in Python?
+
 a) `try...catch`  
 b) `try...except`  
 c) `try...finally`  
@@ -77,6 +80,7 @@ d) `catch...except`
 
 #### Question 6:
 What will the following code snippet output?
+
 ```python
 try:
     x = 1 / 0
@@ -92,6 +96,7 @@ d) `Error`
 
 #### Question 7:
 In a `while` loop, what happens if the loop condition is always `False`?
+
 a) The loop will execute once  
 b) The loop will execute indefinitely  
 c) The loop will not execute at all  
@@ -99,6 +104,7 @@ d) The code will result in a syntax error
 
 #### Question 8:
 Which of the following `break` statements is correct for exiting a loop?
+
 a) `break;`  
 b) `break`  
 c) `exit`  
@@ -106,6 +112,7 @@ d) `stop`
 
 #### Question 9:
 What is the result of using the `continue` statement in a loop?
+
 a) It exits the loop  
 b) It skips the current iteration and proceeds to the next iteration  
 c) It stops the program execution  
@@ -113,6 +120,7 @@ d) It breaks out of the loop and executes the `finally` block
 
 #### Question 10:
 How can you define multiple conditions in an `if` statement?
+
 a) `if condition1 or condition2:`  
 b) `if (condition1, condition2):`  
 c) `if condition1 and condition2:`  
@@ -156,6 +164,7 @@ d) `Hello,`
 
 #### Question 2:
 Which method is used to convert all characters in a string to uppercase?
+
 a) `to_upper()`  
 b) `upper()`  
 c) `capitalize()`  
@@ -163,6 +172,7 @@ d) `uppercase()`
 
 #### Question 3:
 What does the `strip()` method do when called on a string?
+
 a) Removes whitespace from the beginning and end of the string  
 b) Removes all occurrences of a specified character  
 c) Converts the string to lowercase  
@@ -170,6 +180,7 @@ d) Replaces a specified substring with another substring
 
 #### Question 4:
 How can you check if a string contains a substring in Python?
+
 a) `substring in string`  
 b) `string.contains(substring)`  
 c) `string.has(substring)`  
@@ -189,6 +200,7 @@ d) `PythoJ`
 
 #### Question 6:
 How can you concatenate two strings, `str1` and `str2`, in Python?
+
 a) `str1 + str2`  
 b) `str1 & str2`  
 c) `str1.concat(str2)`  
@@ -207,6 +219,7 @@ d) `['abc def']`
 
 #### Question 8:
 Which method would you use to find the position of a substring within a string?
+
 a) `index()`  
 b) `find()`  
 c) `locate()`  
@@ -225,6 +238,7 @@ d) `heo`
 
 #### Question 10:
 How can you create a string from a list of characters `['a', 'b', 'c']`?
+
 a) `''.join(['a', 'b', 'c'])`  
 b) `list.join(['a', 'b', 'c'])`  
 c) `str(['a', 'b', 'c'])`  
@@ -262,6 +276,7 @@ d) `6`
 
 #### Question 2:
 How do you access the third element of a list named `my_list`?
+
 a) `my_list[3]`  
 b) `my_list[2]`  
 c) `my_list.get(3)`  
@@ -281,6 +296,7 @@ d) `[10, 20, 30, 25]`
 
 #### Question 4:
 How do you remove the last item from a list named `my_list`?
+
 a) `my_list.remove()`  
 b) `my_list.pop()`  
 c) `my_list.delete()`  
@@ -300,6 +316,7 @@ d) `[1, 4, 5]`
 
 #### Question 6:
 Which method can be used to sort a list in ascending order?
+
 a) `sort()`  
 b) `order()`  
 c) `arrange()`  
@@ -307,6 +324,7 @@ d) `sort_asc()`
 
 #### Question 7:
 How can you find the index of an element `x` in a list `my_list`?
+
 a) `my_list.index(x)`  
 b) `my_list.find(x)`  
 c) `my_list.locate(x)`  
@@ -338,6 +356,7 @@ d) `[30, 40, 10, 20]`
 
 #### Question 10:
 How do you add multiple items `[6, 7, 8]` to a list `my_list`?
+
 a) `my_list.add([6, 7, 8])`  
 b) `my_list.extend([6, 7, 8])`  
 c) `my_list.append([6, 7, 8])`  
@@ -374,6 +393,7 @@ d) `{1, 2}`
 
 #### Question 2:
 Which method is used to add an element to a set?
+
 a) `add()`  
 b) `append()`  
 c) `insert()`  
@@ -381,6 +401,7 @@ d) `push()`
 
 #### Question 3:
 How do you remove an element from a set?
+
 a) `remove(element)`  
 b) `delete(element)`  
 c) `discard(element)`  
@@ -400,6 +421,7 @@ d) `{1, 2, 3, 4}`
 
 #### Question 5:
 How can you get the common elements between two sets?
+
 a) `s1.intersection(s2)`  
 b) `s1.union(s2)`  
 c) `s1.difference(s2)`  
@@ -431,6 +453,7 @@ d) `{1, 2}`
 
 #### Question 8:
 How do you find the difference between two sets?
+
 a) `s1.difference(s2)`  
 b) `s1.union(s2)`  
 c) `s1.intersection(s2)`  
@@ -449,6 +472,7 @@ d) `None`
 
 #### Question 10:
 Which method returns a new set with elements that are in either set but not both?
+
 a) `s1.symmetric_difference(s2)`  
 b) `s1.intersection(s2)`  
 c) `s1.union(s2)`  
@@ -486,6 +510,7 @@ d) `KeyError`
 
 #### Question 2:
 How do you add a new key-value pair to a dictionary?
+
 a) `d.add(key, value)`  
 b) `d.insert(key, value)`  
 c) `d[key] = value`  
@@ -505,6 +530,7 @@ d) `{'b': 3}`
 
 #### Question 4:
 Which method is used to remove a key-value pair from a dictionary?
+
 a) `pop()`  
 b) `remove()`  
 c) `delete()`  
@@ -512,6 +538,7 @@ d) `discard()`
 
 #### Question 5:
 What does the `get()` method do in a dictionary?
+
 a) Adds a new key-value pair  
 b) Retrieves the value for a specified key  
 c) Removes a key-value pair  
@@ -519,6 +546,7 @@ d) Updates a key-value pair
 
 #### Question 6:
 How do you retrieve all the keys from a dictionary?
+
 a) `d.keys()`  
 b) `d.all_keys()`  
 c) `d.get_keys()`  
@@ -536,7 +564,8 @@ c) `KeyError`
 d) `'z'`  
 
 #### Question 8:
-How can you check if a key exists in a dictionary?
+How can you check if a key exists in a dictionary? 
+
 a) `key in d`  
 b) `d.has_key(key)`  
 c) `d.key_exists(key)`  
@@ -556,6 +585,7 @@ d) `{'b': 2, 'c': 3}`
 
 #### Question 10:
 Which method returns a view object displaying a list of a dictionary’s values?
+
 a) `d.values()`  
 b) `d.all_values()`  
 c) `d.get_values()`  
@@ -574,3 +604,114 @@ d) `d.show_values()`
 8. a) `key in d`
 9. b) `{'a': 1, 'c': 3}`
 10. a) `d.values()`
+
+
+---
+
+### Python Tuples Quiz
+
+#### Question 1:
+What is the output of the following code snippet?
+```python
+t = (1, 2, 3)
+print(t[1])
+```
+a) `1`  
+b) `2`  
+c) `3`  
+d) `IndexError`  
+
+#### Question 2:
+How do you create a tuple with a single element?
+
+a) `(1)`  
+b) `[1]`  
+c) `1,`  
+d) `(1,)`  
+
+#### Question 3:
+What will the following code output?
+```python
+t = (1, 2, 3, 4)
+print(t[1:3])
+```
+a) `(2, 3)`  
+b) `(1, 2, 3)`  
+c) `(2, 3, 4)`  
+d) `(1, 2)`  
+
+#### Question 4:
+How can you concatenate two tuples `t1` and `t2`?
+
+a) `t1.concat(t2)`  
+b) `t1.append(t2)`  
+c) `t1 + t2`  
+d) `t1.extend(t2)`  
+
+#### Question 5:
+What is the result of the following code?
+```python
+t = (1, 2, 3)
+t[1] = 4
+```
+a) `(1, 4, 3)`  
+b) `(1, 2, 4)`  
+c) `TypeError`  
+d) `(1, 2, 3, 4)`  
+
+#### Question 6:
+How do you find the length of a tuple?
+
+a) `len(t)`  
+b) `t.length()`  
+c) `t.size()`  
+d) `t.count()`  
+
+#### Question 7:
+What does the `count()` method do when used on a tuple?
+
+a) Counts the number of elements in the tuple  
+b) Counts the occurrences of a specified element  
+c) Counts the number of tuples in a list  
+d) Counts the number of unique elements  
+
+#### Question 8:
+How do you unpack a tuple into individual variables?
+
+a) `a, b, c = (1, 2, 3)`  
+b) `a, b, c := (1, 2, 3)`  
+c) `a = 1, b = 2, c = 3`  
+d) `a = (1), b = (2), c = (3)`  
+
+#### Question 9:
+What will be the output of this code snippet?
+```python
+t = (1, 2, 3)
+print(t * 2)
+```
+a) `(1, 2, 3, 1, 2, 3)`  
+b) `(2, 4, 6)`  
+c) `(1, 2, 3, 2, 4, 6)`  
+d) `Error`  
+
+#### Question 10:
+Which method can you use to check if a tuple contains a specific value?
+
+a) `value in t`  
+b) `t.has(value)`  
+c) `t.contains(value)`  
+d) `t.find(value)`  
+
+---
+
+### Answers:
+1. b) `2`
+2. d) `(1,)`
+3. a) `(2, 3)`
+4. c) `t1 + t2`
+5. c) `TypeError`
+6. a) `len(t)`
+7. b) Counts the occurrences of a specified element
+8. a) `a, b, c = (1, 2, 3)`
+9. a) `(1, 2, 3, 1, 2, 3)`
+10. a) `value in t`
