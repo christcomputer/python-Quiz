@@ -468,3 +468,109 @@ d) `s1.difference(s2)`
 9. a) `KeyError`
 10. a) `s1.symmetric_difference(s2)`
 
+
+---
+
+### Python Dictionaries Quiz
+
+#### Question 1:
+What is the output of the following code snippet?
+```python
+d = {'a': 1, 'b': 2}
+print(d['b'])
+```
+a) `1`  
+b) `2`  
+c) `'b'`  
+d) `KeyError`  
+
+#### Question 2:
+How do you add a new key-value pair to a dictionary?
+a) `d.add(key, value)`  
+b) `d.insert(key, value)`  
+c) `d[key] = value`  
+d) `d.append(key, value)`  
+
+#### Question 3:
+What will be the output of this code?
+```python
+d = {'a': 1, 'b': 2}
+d['b'] = 3
+print(d)
+```
+a) `{'a': 1, 'b': 2}`  
+b) `{'a': 1, 'b': 3}`  
+c) `{'a': 1}`  
+d) `{'b': 3}`  
+
+#### Question 4:
+Which method is used to remove a key-value pair from a dictionary?
+a) `pop()`  
+b) `remove()`  
+c) `delete()`  
+d) `discard()`  
+
+#### Question 5:
+What does the `get()` method do in a dictionary?
+a) Adds a new key-value pair  
+b) Retrieves the value for a specified key  
+c) Removes a key-value pair  
+d) Updates a key-value pair  
+
+#### Question 6:
+How do you retrieve all the keys from a dictionary?
+a) `d.keys()`  
+b) `d.all_keys()`  
+c) `d.get_keys()`  
+d) `d.retrieve_keys()`  
+
+#### Question 7:
+What is the result of the following code?
+```python
+d = {'x': 1, 'y': 2}
+print(d.get('z', 'Not Found'))
+```
+a) `None`  
+b) `'Not Found'`  
+c) `KeyError`  
+d) `'z'`  
+
+#### Question 8:
+How can you check if a key exists in a dictionary?
+a) `key in d`  
+b) `d.has_key(key)`  
+c) `d.key_exists(key)`  
+d) `d.contains(key)`  
+
+#### Question 9:
+What will be the output of this code snippet?
+```python
+d = {'a': 1, 'b': 2, 'c': 3}
+del d['b']
+print(d)
+```
+a) `{'a': 1, 'b': 2, 'c': 3}`  
+b) `{'a': 1, 'c': 3}`  
+c) `{'b': 2}`  
+d) `{'b': 2, 'c': 3}`  
+
+#### Question 10:
+Which method returns a view object displaying a list of a dictionary’s values?
+a) `d.values()`  
+b) `d.all_values()`  
+c) `d.get_values()`  
+d) `d.show_values()`  
+
+---
+
+### Answers:
+1. b) `2`
+2. c) `d[key] = value`
+3. b) `{'a': 1, 'b': 3}`
+4. a) `pop()`
+5. b) Retrieves the value for a specified key
+6. a) `d.keys()`
+7. b) `'Not Found'`
+8. a) `key in d`
+9. b) `{'a': 1, 'c': 3}`
+10. a) `d.values()`
