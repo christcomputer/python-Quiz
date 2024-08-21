@@ -244,3 +244,116 @@ d) `''.combine(['a', 'b', 'c'])`
 9. a) `hlo`
 10. a) `''.join(['a', 'b', 'c'])`
 
+---
+
+### Python Lists Quiz
+
+#### Question 1:
+What is the output of the following code snippet?
+```python
+numbers = [1, 2, 3]
+numbers.append([4, 5])
+print(len(numbers))
+```
+a) `5`  
+b) `4`  
+c) `3`  
+d) `6`  
+
+#### Question 2:
+How do you access the third element of a list named `my_list`?
+a) `my_list[3]`  
+b) `my_list[2]`  
+c) `my_list.get(3)`  
+d) `my_list(2)`  
+
+#### Question 3:
+What will the following code output?
+```python
+lst = [10, 20, 30]
+lst[1:2] = [25]
+print(lst)
+```
+a) `[10, 25, 30]`  
+b) `[10, 25]`  
+c) `[25, 30]`  
+d) `[10, 20, 30, 25]`  
+
+#### Question 4:
+How do you remove the last item from a list named `my_list`?
+a) `my_list.remove()`  
+b) `my_list.pop()`  
+c) `my_list.delete()`  
+d) `my_list.clear()`  
+
+#### Question 5:
+What is the result of this code?
+```python
+lst = [1, 2, 3, 4, 5]
+lst[1:4] = []
+print(lst)
+```
+a) `[1, 5]`  
+b) `[1, 2, 3, 4, 5]`  
+c) `[1, 5]`  
+d) `[1, 4, 5]`  
+
+#### Question 6:
+Which method can be used to sort a list in ascending order?
+a) `sort()`  
+b) `order()`  
+c) `arrange()`  
+d) `sort_asc()`  
+
+#### Question 7:
+How can you find the index of an element `x` in a list `my_list`?
+a) `my_list.index(x)`  
+b) `my_list.find(x)`  
+c) `my_list.locate(x)`  
+d) `my_list.search(x)`  
+
+#### Question 8:
+What will the following code produce?
+```python
+list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+result = list1 + list2
+print(result)
+```
+a) `[1, 2, 3, 4, 5, 6]`  
+b) `[4, 5, 6, 1, 2, 3]`  
+c) `[1, 2, 3]`  
+d) `[4, 5, 6]`  
+
+#### Question 9:
+What is the output of this code?
+```python
+lst = [10, 20, 30, 40]
+print(lst[::-1])
+```
+a) `[40, 30, 20, 10]`  
+b) `[10, 20, 30, 40]`  
+c) `[20, 30, 40, 10]`  
+d) `[30, 40, 10, 20]`  
+
+#### Question 10:
+How do you add multiple items `[6, 7, 8]` to a list `my_list`?
+a) `my_list.add([6, 7, 8])`  
+b) `my_list.extend([6, 7, 8])`  
+c) `my_list.append([6, 7, 8])`  
+d) `my_list.insert([6, 7, 8])`  
+
+---
+
+### Answers:
+1. b) `4`
+2. b) `my_list[2]`
+3. a) `[10, 25, 30]`
+4. b) `my_list.pop()`
+5. a) `[1, 5]`
+6. a) `sort()`
+7. a) `my_list.index(x)`
+8. a) `[1, 2, 3, 4, 5, 6]`
+9. a) `[40, 30, 20, 10]`
+10. b) `my_list.extend([6, 7, 8])`
+
