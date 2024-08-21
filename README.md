@@ -1,6 +1,5 @@
 # python-Quiz
 
-Sure! Here’s a quiz focused on flow control in Python, covering topics such as `if` statements, loops, and `try`/`except` blocks.
 
 ---
 
@@ -139,4 +138,109 @@ else:
 9. b) It skips the current iteration and proceeds to the next iteration
 10. a) `if condition1 or condition2:`
 
-Feel free to use this quiz to test your understanding of flow control in Python!
+
+---
+
+### Python Strings Quiz
+
+#### Question 1:
+What is the output of the following code?
+```python
+s = "Hello, World!"
+print(s[7:])
+```
+a) `World!`  
+b) `Hello, World!`  
+c) `World`  
+d) `Hello,`  
+
+#### Question 2:
+Which method is used to convert all characters in a string to uppercase?
+a) `to_upper()`  
+b) `upper()`  
+c) `capitalize()`  
+d) `uppercase()`  
+
+#### Question 3:
+What does the `strip()` method do when called on a string?
+a) Removes whitespace from the beginning and end of the string  
+b) Removes all occurrences of a specified character  
+c) Converts the string to lowercase  
+d) Replaces a specified substring with another substring  
+
+#### Question 4:
+How can you check if a string contains a substring in Python?
+a) `substring in string`  
+b) `string.contains(substring)`  
+c) `string.has(substring)`  
+d) `substring.isin(string)`  
+
+#### Question 5:
+What is the result of the following code snippet?
+```python
+s = "Python"
+s = s.replace("P", "J")
+print(s)
+```
+a) `Jython`  
+b) `Jython`  
+c) `Python`  
+d) `PythoJ`  
+
+#### Question 6:
+How can you concatenate two strings, `str1` and `str2`, in Python?
+a) `str1 + str2`  
+b) `str1 & str2`  
+c) `str1.concat(str2)`  
+d) `str1.append(str2)`  
+
+#### Question 7:
+What will be the output of this code?
+```python
+s = "abc def"
+print(s.split())
+```
+a) `['abc', 'def']`  
+b) `'abc', 'def'`  
+c) `'abc def'`  
+d) `['abc def']`  
+
+#### Question 8:
+Which method would you use to find the position of a substring within a string?
+a) `index()`  
+b) `find()`  
+c) `locate()`  
+d) `position()`  
+
+#### Question 9:
+What is the result of the following code snippet?
+```python
+s = "hello"
+print(s[::2])
+```
+a) `hlo`  
+b) `hello`  
+c) `ell`  
+d) `heo`  
+
+#### Question 10:
+How can you create a string from a list of characters `['a', 'b', 'c']`?
+a) `''.join(['a', 'b', 'c'])`  
+b) `list.join(['a', 'b', 'c'])`  
+c) `str(['a', 'b', 'c'])`  
+d) `''.combine(['a', 'b', 'c'])`  
+
+---
+
+### Answers:
+1. a) `World!`
+2. b) `upper()`
+3. a) Removes whitespace from the beginning and end of the string
+4. a) `substring in string`
+5. a) `Jython`
+6. a) `str1 + str2`
+7. a) `['abc', 'def']`
+8. b) `find()`
+9. a) `hlo`
+10. a) `''.join(['a', 'b', 'c'])`
+
