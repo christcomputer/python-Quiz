@@ -357,3 +357,114 @@ d) `my_list.insert([6, 7, 8])`
 9. a) `[40, 30, 20, 10]`
 10. b) `my_list.extend([6, 7, 8])`
 
+---
+
+### Python Sets Quiz
+
+#### Question 1:
+What is the result of the following code snippet?
+```python
+s = {1, 2, 2, 3}
+print(s)
+```
+a) `{1, 2, 2, 3}`  
+b) `{1, 2, 3}`  
+c) `{2, 2, 3}`  
+d) `{1, 2}`  
+
+#### Question 2:
+Which method is used to add an element to a set?
+a) `add()`  
+b) `append()`  
+c) `insert()`  
+d) `push()`  
+
+#### Question 3:
+How do you remove an element from a set?
+a) `remove(element)`  
+b) `delete(element)`  
+c) `discard(element)`  
+d) `pop(element)`  
+
+#### Question 4:
+What is the output of the following code?
+```python
+s1 = {1, 2, 3}
+s2 = {3, 4, 5}
+print(s1.union(s2))
+```
+a) `{1, 2, 3, 4, 5}`  
+b) `{1, 2, 3}`  
+c) `{3, 4, 5}`  
+d) `{1, 2, 3, 4}`  
+
+#### Question 5:
+How can you get the common elements between two sets?
+a) `s1.intersection(s2)`  
+b) `s1.union(s2)`  
+c) `s1.difference(s2)`  
+d) `s1.symmetric_difference(s2)`  
+
+#### Question 6:
+What is the result of the following code snippet?
+```python
+s = {1, 2, 3}
+s.add(4)
+print(s)
+```
+a) `{1, 2, 3, 4}`  
+b) `{1, 2, 3}`  
+c) `{4, 1, 2, 3}`  
+d) `{1, 2, 3, 4, 4}`  
+
+#### Question 7:
+What will be the output of this code?
+```python
+s = {1, 2, 3}
+s.discard(2)
+print(s)
+```
+a) `{1, 3}`  
+b) `{1, 2, 3}`  
+c) `{2, 3}`  
+d) `{1, 2}`  
+
+#### Question 8:
+How do you find the difference between two sets?
+a) `s1.difference(s2)`  
+b) `s1.union(s2)`  
+c) `s1.intersection(s2)`  
+d) `s1.symmetric_difference(s2)`  
+
+#### Question 9:
+What will the following code produce?
+```python
+s = {1, 2, 3, 4}
+s.remove(5)
+```
+a) `KeyError`  
+b) `{1, 2, 3, 4}`  
+c) `{1, 2, 3, 4, 5}`  
+d) `None`  
+
+#### Question 10:
+Which method returns a new set with elements that are in either set but not both?
+a) `s1.symmetric_difference(s2)`  
+b) `s1.intersection(s2)`  
+c) `s1.union(s2)`  
+d) `s1.difference(s2)`  
+
+---
+
+### Answers:
+1. b) `{1, 2, 3}`
+2. a) `add()`
+3. a) `remove(element)` or c) `discard(element)` (both are valid, but `discard()` does not raise an error if the element is not present)
+4. a) `{1, 2, 3, 4, 5}`
+5. a) `s1.intersection(s2)`
+6. a) `{1, 2, 3, 4}`
+7. a) `{1, 3}`
+8. a) `s1.difference(s2)`
+9. a) `KeyError`
+10. a) `s1.symmetric_difference(s2)`
+
